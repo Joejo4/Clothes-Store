@@ -282,11 +282,47 @@ nav a:hover {
 }
 
 /*section two*/
-img {
-  width: 100%;
-}
-.Section-two {
+.image-section {
   position: relative;
+  /* keep image-section as the positioning context for the overlay */
+}
+
+/* place the heading and button stacked at the bottom-left over the image */
+.buttom-left {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start; /* left-align the stacked items */
+  color: #a86523; /* ensure text is visible over the image */
+  z-index: 2;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto; /* let image size naturally; change to 100vh if you want full-viewport hero */
+  display: block;
+}
+
+.buttom-left h1 {
+  margin: 0;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 200;
   text-align: center;
-  color: white;
+}
+
+.buttom-left button {
+  padding: 20px 50px;
+  background: #a86523;
+  color: #fad59a;
+  border: none;
+  border-radius: none;
+  cursor: pointer;
+}
+.buttom-left button:hover {
+  background: #fcefcb;
+  color: #a86523;
 }
