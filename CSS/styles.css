@@ -295,23 +295,25 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  align-items: flex-start; /* left-align the stacked items */
-  color: #a86523; /* ensure text is visible over the image */
+  align-items: flex-start;
+  color: #a86523;
   z-index: 2;
 }
 
 .image-section img {
   width: 100%;
-  height: auto; /* let image size naturally; change to 100vh if you want full-viewport hero */
+  height: 900px;
   display: block;
 }
-
+.buttom-left {
+  text-align: center;
+  align-items: center;
+}
 .buttom-left h1 {
   margin: 0;
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 200;
-  text-align: center;
 }
 
 .buttom-left button {
@@ -326,3 +328,4 @@ nav a:hover {
   background: #fcefcb;
   color: #a86523;
 }
+/*section three*/
