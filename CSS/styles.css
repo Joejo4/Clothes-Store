@@ -329,3 +329,56 @@ nav a:hover {
   color: #a86523;
 }
 /*section three*/
+#text-three {
+  text-align: center;
+  align-items: center;
+  color: #a86523;
+  font-weight: 200;
+}
+.text-three h2 {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  line-height: 0.5;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.column img {
+  width: 400px;
+}
+.column img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.column h4 {
+  color: #a86523;
+  font-weight: 200;
+}
+.column p {
+  color: #a86523;
+  font-weight: 200;
+}
+.Get-to-center button {
+  margin-top: 20px;
+  padding: 15px 60px;
+  background: #a86523;
+  color: #fad59a;
+  border: 1px solid black;
+  border-radius: none;
+  cursor: pointer;
+}
+.Get-to-center button:hover {
+  background-color: #fcefcb;
+  color: #a86523;
+}
+/*last section*/
+.last-section {
+  background-color: #a86523;
+  color: #fad59a;
+}
