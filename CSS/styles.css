@@ -382,3 +382,50 @@ nav a:hover {
   background-color: #a86523;
   color: #fad59a;
 }
+.last-section h1 {
+  padding-top: 50px;
+  font-weight: 200;
+  font-size: 3rem;
+  padding-left: 10px;
+}
+.General-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 0;
+}
+.box {
+  flex: 30%;
+  padding: 5px;
+}
+
+.box p {
+  font-weight: 200;
+}
+.box p:hover {
+  color: #fcefcb;
+}
+.box a {
+  display: block;
+  text-decoration: underline;
+  color: #fad59a;
+  line-height: 25px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+label {
+  color: #fad59a;
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+}
