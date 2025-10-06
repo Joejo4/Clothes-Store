@@ -423,9 +423,21 @@ label {
   font-size: 12px;
   margin-bottom: 5px;
 }
-input[type="email"] {
-  width: 100%;
-  padding: 10px;
+.form input {
+  border-style: hidden hidden groove hidden;
+  background-color: #a86523;
+  border-color: #fad59a;
+}
+
+.form button {
+  width: 40%;
+  margin-top: 5px;
+  padding: 10px 15px;
+  background: #fad59a;
+  color: #a86523;
   border: none;
-  border-radius: 6px;
+}
+.form button:hover {
+  background-color: #fcefcb;
+  color: #a86523;
 }
