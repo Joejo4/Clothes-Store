@@ -441,3 +441,9 @@ label {
   background-color: #fcefcb;
   color: #a86523;
 }
+#footer {
+  text-align: center;
+  background: #a86523;
+  color: #fad59a;
+  padding: 20px;
+}
